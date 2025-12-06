@@ -1,0 +1,4 @@
+pytelegrambotapi
+Flask
+gunicorn
+requests
