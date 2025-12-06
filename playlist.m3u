@@ -1,0 +1,142 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DZr3WWV8/images-(4).jpg", Somoy TV
+http://172.16.29.2:8090/hls/somoytv.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fTZTvNBJ/1618746762-26959522.png", Gazi TV HD
+http://172.16.29.2:8090/hls/gazitvhd.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0QqLq86p/1674014573-65966686.jpg", Channel i HD
+http://172.16.29.2:8090/hls/channelihd.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PqbSY1x1/1675573934-89430978.jpg", ATN News
+http://172.16.29.2:8090/hls/AtnNews.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KvZxM581/jamunatv.png", Jamuna TV
+http://172.16.29.2:8090/hls/JamunaTV.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/15LBdvnL/images-(2).jpg", Star Plus HD
+http://172.16.29.2:8090/hls/StarPlusHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/fLLYyd0w/images.jpg", Sony HD
+http://172.16.29.2:8090/hls/SonyHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/PqfSbP8P/images-(1).jpg", Sony Max HD
+http://172.16.29.2:8090/hls/sonymaxhd.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wTKFfWmj/1751178180-59832883.png", Zee TV HD
+http://172.16.29.2:8090/hls/ZeeTVHD.m3u8
+
+#EXTINF:-1 tvg-logo="", Zee Cinema HD
+http://172.16.29.2:8090/hls/ZeeCinemaHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/524BTDN2/1736065816-18292368.jpg", Colors HD
+http://172.16.29.2:8090/hls/ColorsHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/yYP9mnhM/1693477944-85084283.webp", Star Jalsha HD
+http://172.16.29.2:8090/hls/StarJalshaHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3rjDh9qr/1750067959-21698999.png", Zee Bangla HD
+http://172.16.29.2:8090/hls/ZeeBanglaHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/3wpxBx5D/colorsbangla.png", Colors Bangla HD
+http://172.16.29.2:8090/hls/ColorsBanglaHD.m3u8
+
+#EXTINF:-1 tvg-logo="", Enter10 Bangla
+http://172.16.29.2:8090/hls/Enter10Bangla.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/vHN8wVGd/jalshamovies.png", Jalsha Movies HD
+http://172.16.29.2:8090/hls/JalshaMoviesHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/XN249CGc/1756967258-78943148.png", Zee Bangla Cinema HD
+http://172.16.29.2:8090/hls/ZeeBanglaCinemaHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/T1szFngH/images-(3).jpg", Sony Atth
+http://172.16.29.2:8090/hls/SonyAtth.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="", Star Movies HD
+http://172.16.29.2:8090/hls/StarMoviesHD.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/4Nhqn7zV/1674014708-77901345.png", Colors Cineplex HD
+http://172.16.29.2:8090/hls/ColorsCineplexHD.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="", T Sports HD
+http://172.16.29.2:8090/hls/tsportshd.m3u8
+
+#EXTINF:-1 tvg-logo="", Star Sports 1 HD
+http://172.16.29.2:8090/hls/StarSports1HD.m3u8
+
+#EXTINF:-1 tvg-logo="", Star Sports 2 HD
+http://172.16.29.2:8090/hls/StarSports2HD.m3u8
+
+#EXTINF:-1 tvg-logo="", Star Sports Select 1 HD
+http://172.16.29.2:8090/hls/StarSportsSelect1HD.m3u8
+
+#EXTINF:-1 tvg-logo="", Star Sports Select 2 HD
+http://172.16.29.2:8090/hls/StarSportsSelect2HD.m3u8
+
+#EXTINF:-1 tvg-logo="", Star Sports Hindi 2 HD
+http://172.16.29.2:8090/hls/StarSportsHindi2HD.m3u8
+
+#EXTINF:-1 tvg-logo="", Sony Ten 1 HD
+http://172.16.29.2:8090/hls/SonyTen1hd.m3u8
+
+#EXTINF:-1 tvg-logo="", Sony Ten 2 HD
+http://172.16.29.2:8090/hls/SonyTen2hd.m3u8
+
+#EXTINF:-1 tvg-logo="", Sony Ten 3 HD
+http://172.16.29.2:8090/hls/SonyTen3hd.m3u8
+
+#EXTINF:-1 tvg-logo="", Sony Ten 5 HD
+http://172.16.29.2:8090/hls/SonyTen5HD.m3u8
+
+#EXTINF:-1 tvg-logo="", ASports HD
+http://172.16.29.2:8090/hls/ASportsHD.m3u8
+
+#EXTINF:-1 tvg-logo="", Willow Cricket HD
+http://172.16.29.2:8090/hls/willowcrickethd.m3u8
+
+#EXTINF:-1 tvg-logo="", Fubo Sports
+http://172.16.29.2:8090/hls/fubosports.m3u8
+
+#EXTINF:-1 tvg-logo="", World of Free Sports
+http://172.16.29.2:8090/hls/WorldofFreeSports.m3u8
+
+#EXTINF:-1 tvg-logo="", DD Sports
+http://172.16.29.2:8090/hls/ddsports.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="", Al Jazeera News
+http://172.16.29.2:8090/hls/ALjazeeraNews.m3u8
+
+#EXTINF:-1 tvg-logo="", BBC World
+http://172.16.29.2:8090/hls/bbc_world.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="", Cartoon Network HD
+http://172.16.29.2:8090/hls/CartoonNetworkHD.m3u8
+
+#EXTINF:-1 tvg-logo="", Discovery Kids
+http://172.16.29.2:8090/hls/DiscoveryKids.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="", Discovery HD
+http://172.16.29.2:8090/hls/DiscoveryHD.m3u8
+
+#EXTINF:-1 tvg-logo="", Animal Planet HD
+http://172.16.29.2:8090/hls/AnimalPlanetHD.m3u8
+
+#EXTINF:-1 tvg-logo="", BBC Earth HD
+http://172.16.29.2:8090/hls/bbcearthhd.m3u8
+
+#EXTINF:-1 tvg-logo="", Eurosport HD
+http://172.16.29.2:8090/hls/eurosportshd.m3u8
