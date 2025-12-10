@@ -140,3 +140,182 @@ http://172.16.29.2:8090/hls/bbcearthhd.m3u8
 
 #EXTINF:-1 tvg-logo="", Eurosport HD
 http://172.16.29.2:8090/hls/eurosportshd.m3u8
+#EXTINF:-1 tvg-id="122" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/BTV.jpg?raw=true" group-title="All-In-One~ENT🧩",BTV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
+#EXTINF:1 tvg-name="BTV News" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/BTV_News.jpg?raw=true" group-title="All-In-One~ENT🧩",BTV News
+https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/SG/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8
+#EXTINF:1 tvg-name="BTV CTG" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/BTV_CTG.jpg?raw=true" group-title="All-In-One~ENT🧩",BTV CTG
+https://www.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/SG/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
+#EXTINF:1 tvg-name="SongSod TV" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Sangsod.jpg?raw=true" group-title="All-In-One~ENT🧩",SongSod TV
+https://www.btvlive.gov.bd/live/undefined/SG/9ee3b4f9-fd0a-47c5-a135-2575c5691613/index.m3u8
+#EXTINF:-1 tvg-id="97" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Jamuna%20Tv.jpg?raw=true" group-title="All-In-One~ENT🧩",Jamuna TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
+#EXTINF:-1 tvg-id="98" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/SomoyTv.jpg?raw=true" group-title="All-In-One~ENT🧩",Somoy Tv
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#EXTINF:-1 tvg-id="94" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Channel%2024.png?raw=true" group-title="All-In-One~ENT🧩",Channel 24 HD
+https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8
+#EXTINF:-1 tvg-id="96" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Independent.jpg?raw=true" group-title="All-In-One~ENT🧩",Independent TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8
+#EXTINF:-1 tvg-id="102" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Ekattor.jpg?raw=true" group-title="All-In-One~ENT🧩",Ekattor HD
+https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
+#EXTINF:-1 tvg-id="93" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/ATN%20NEWS.jpg?raw=true" group-title="All-In-One~ENT🧩",ATN News
+https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
+#EXTINF:-1 tvg-id="134" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Deepto%20Tv.jpg?raw=true" group-title="All-In-One~ENT🧩",Deepto TV HD
+https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8
+#EXTINF:-1 tvg-id="100" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Banglavision.jpg?raw=true" group-title="All-In-One~ENT🧩",Bangla Vision
+https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
+#EXTINF:-1 tvg-id="99" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/NTV.jpg?raw=true" group-title="All-In-One~ENT🧩",NTV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+#EXTINF:-1 tvg-id="131" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/ATN%20Bangla.jpg?raw=true" group-title="All-In-One~ENT🧩",ATN Bangla
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
+#EXTINF:-1 tvg-id="132" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Channeli.jpg?raw=true" group-title="All-In-One~ENT🧩",Channel I HD
+https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Al%20Jazeera.jpg?raw=true" group-title="All-In-One~ENT🧩",,Al Jazeera
+https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8
+
+#EXTINF:1 tvg-name="Nagorik TV" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Nagorik.jpg?raw=true" group-title="All-In-One~ENT🧩",Nagorik TV
+http://116.204.149.16/nagorik/index.m3u8
+#EXTINF:-1 tvg-id="📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/DBC%20News.jpg?raw=true" group-title="All-In-One~ENT🧩",DBC News
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Satv.jpg?raw=true" group-title="All-In-One~ENT🧩",SA TV
+
+#EXTINF:-1 tvg-id="📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/RTV.jpg?raw=true" group-title="All-In-One~ENT🧩",RTV
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:-1 tvg-name="NEWS 24 📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/News24.jpg?raw=true" group-title="All-In-One~ENT🧩",NEWS 24
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:-1 tvg-name="DESH TV 📴🚫""" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Desh%20TV.jpg?raw=true" group-title="All-In-One~ENT🧩",DESH TV
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:-1 tvg-id="📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/EkhonTv.jpg?raw=true" group-title="All-In-One~ENT🧩",Ekhon Tv
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Bijoytv.jpg?raw=true" group-title="All-In-One~ENT🧩",Bijoy TV
+
+#EXTINF:-1 tvg-id="📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/GTV.jpg?raw=true" group-title="All-In-One~ENT🧩",G TV
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:-1 tvg-id="📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Channel9.jpg?raw=true" group-title="All-In-One~ENT🧩",Channel 9
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Global%20Tv.jpg?raw=true" group-title="All-In-One~ENT🧩",Global TV
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Mohona%20tv.jpg?raw=true" group-title="All-In-One~ENT🧩",Mohona TV
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:-1 tvg-id="📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Acian%20tv.jpg?raw=true" group-title="All-In-One~ENT🧩",Asian TV
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:1 tvg-name="Anananda Tv 📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Anandotv.png?raw=true" group-title="All-In-One~ENT🧩",Anananda Tv
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:1 tvg-name="Bangla TV 📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Bangla%20TV.jpg?raw=true" group-title="All-In-One~ENT🧩",Bangla TV
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:1 tvg-name="T Sports" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/T%20Sports.jpg?raw=true" group-title="All-In-One~ENT🧩",T Sports
+#https://live.tsports.com/mobile_hls/tsports_live_1/playlist.m3u8
+http://10.16.100.213:8080/hls/tsports.m3u8
+#EXTINF:1 tvg-name="T Sports" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/T%20Sports.jpg?raw=true" group-title="All-In-One~ENT🧩",T Sports
+http://51.83.129.17/tsports/index.m3u8
+#EXTINF:1 tvg-name="T Sports" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/T%20Sports.jpg?raw=true" group-title="All-In-One~ENT🧩",T Sports
+https://padmaonline.duckdns.org:8088/T-Sport/tracks-v1a1/mono.m3u8
+
+#EXTINF:1 tvg-name="MY TV" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Mytv.jpg?raw=true" group-title="All-In-One~ENT🧩",MY TV
+https://mytvbangla.com/0.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Desh%20TV.jpg?raw=true" group-title="All-In-One~ENT🧩",DESH TV
+
+#EXTINF:-1 tvg-name="Ekhusjey TV" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Ekushetv.jpg?raw=true" group-title="All-In-One~ENT🧩",Ekhusjey TV
+#https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+http://210.4.72.204/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
+#EXTINF:1 tvg-name="boishakhitv📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Boisakhi.jpg?raw=true" group-title="All-In-One~ENT🧩",Boishakhi tv
+$https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:1 tvg-name="Movie Bangla" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Movie%20Bangla.jpg?raw=true" group-title="All-In-One~ENT🧩",Movie Bangla
+http://alvetv.com/moviebanglatv/8080/index.m3u8
+#EXTINF:-1 group-title="All-In-One~ENT🧩" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Masranga%20Tv.jpg?raw=true",Maasranga Tv
+https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
+#EXTINF:1 tvg-name="SAMAY KOLKATA" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/SamayKolkata.jpg?raw=true" group-title="All-In-One~ENT🧩",SAMAY KOLKATA
+https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8
+#EXTINF:1 tvg-name="TBN24" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/TBN24.jpg?raw=true" group-title="All-In-One~ENT🧩",TBN24
+https://www.tbn24.com/live-tv-stream/20201_.m3u8
+#EXTINF:1 tvg-name="Gaan Bangla" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Gaan%20bangla.jpg?raw=true" group-title="All-In-One~ENT🧩",Gaan Bangla
+
+#EXTINF:1 tvg-name="Duronto Tv" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Duronto%20Tv.jpg?raw=true" group-title="All-In-One~ENT🧩",Duronto TV
+https://tvsen4.aynaott.com/durontotv/tracks-v1a1/mono.ts.m3u8
+#EXTINF:1 tvg-name="ChannelA1" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Channel%20a1.jpg?raw=true" group-title="All-In-One~ENT🧩",ChannelA1
+https://stream.shariarsuvo.com/hls_live2/channela1.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Chummak.jpg?raw=true" group-title="All-In-One~ENT🧩",CHUMBAK TV
+#https://cdn-1.pishow.tv/live/1451/master.m3u8
+https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8
+#EXTINF:1 tvg-name="SRKTV BANGLA" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/SrkTV.jpg?raw=true" group-title="All-In-One~ENT🧩",SRKTV BANGLA
+https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
+#EXTINF:1 tvg-name="Tom & Jerry" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Tom%20and%20jery.jpg?raw=true" group-title="All-In-One~ENT🧩",Tom & Jerry
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+#EXTINF:1 tvg-name="The Q" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/The%20QTv.jpg?raw=true" group-title="All-In-One~ENT🧩",The Q
+https://mumt05.tangotv.in/THEQ/index.m3u8
+#EXTINF:1
+#EXTINF:1 tvg-name="Nick bangla📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Nick%20Bangla.jpg?raw=true" group-title="All-In-One~ENT🧩",Nick Bangla
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:1 tvg-name="Nick Hindi" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Nick%20Hindi.jpg?raw=true" group-title="All-In-One~ENT🧩",Nick Hindi
+http://ranapk.site/new.php?id=JC_NickSD/JCHLS/JC_NickSD-audio_108041_hin=108000-video=662800.m3u8
+#EXTINF:1 tvg-name="Sonic Bangla" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Sonic%20Bangla.jpg?raw=true" group-title="All-In-One~ENT🧩",Sonic Bangla
+
+#EXTINF:1 tvg-name="Sonic Hindi" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Sonic%20Hindi.jpg?raw=true" group-title="All-In-One~ENT🧩",Sonic Hindi
+http://ranapk.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8
+#EXTINF:1 tvg-id="548" tvg-name="nickjr hindi" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Nick%20jr.jpg?raw=true" group-title="All-In-One~ENT🧩",NickJr
+http://ranapk.site/new.php?id=JC_NickJr/JCHLS/JC_NickJr-audio_98836_eng=98800-video=658800.m3u8
+#EXTINF:1 tvg-name="Discovery kids📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Discovery%20Kids.jpg?raw=true" group-title="All-In-One~ENT🧩",Discovery kids
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:1 tvg-name="Pogo" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Pogo.jpg?raw=true" group-title="All-In-One~ENT🧩",Pogo
+
+#EXTINF:-1 tvg-id="discovey 📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Discovery%20Bangla.png?raw=true" group-title="All-In-One~ENT🧩",Discovery Bangla
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:1 tvg-name="TLC Hindi" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/TLC.jpg?raw=true" group-title="All-In-One~ENT🧩",TLC
+
+#EXTINF:1 tvg-name="Travelxp hindi" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Tavelxp.jpg?raw=true" group-title="All-In-One~ENT🧩",Travelxp
+
+#EXTINF:1 tvg-name="History TV18 HD (HINDI)" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/History%20Tv.jpg?raw=true" group-title="All-In-One~ENT🧩",History TV18
+
+#EXTINF:-1 tvg-id="144" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Colors%20HD.jpg?raw=true" group-title="All-In-One~ENT🧩",colors_hd
+http://ranapk.site/new.php?id=JC_ColorsHD/JCHLS/JC_ColorsHD-audio_98835_hin=98800-video=658800.m3u8
+#EXTINF:-1 tvg-id="1368" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Colors%20sd.jpg?raw=true" group-title="All-In-One~ENT🧩",colors_sd
+
+#EXTINF:-1 tvg-id="756" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Colors%20Bangla%20HD.jpg?raw=true" group-title="All-In-One~ENT🧩",colors_bangla_hd
+http://ranapk.site/new.php?id=JC_ColorsBanglaHD/JCHLS/JC_ColorsBanglaHD-audio_108035_ben=108000-video=662800.m3u8
+#EXTINF:-1 tvg-id="1369" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Colors%20bangla%20sd.jpg?raw=true" group-title="All-In-One~ENT🧩",colors_bangla_sd
+
+#EXTINF:-1 tvg-id="1657" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Colors%20Bangla%20cinema.jpg?raw=true" group-title="All-In-One~ENT🧩",colors_bangla_cinema
+http://ranapk.site/new.php?id=Syn_Colors_Bangla_Cinema/Fallback/Syn_Colors_Bangla_Cinema-audio_108034_ben=108000-video=662800.m3u8
+#EXTINF:-1 tvg-id="279" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Rishtey.jpg?raw=true" group-title="All-In-One~ENT🧩",rishtey
+http://ranapk.site/new.php?id=JC_ColorsRishtey/JCHLS/JC_ColorsRishtey-audio_98835_hin=98800-video=658800.m3u8
+#EXTINF:-1 tvg-id="1477" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Colors%20cineplex%20Hd.jpg?raw=true" group-title="All-In-One~ENT🧩",cineplex_hd
+http://ranapk.site/new.php?id=JC_ColorsCineplexHD/JCHLS/JC_ColorsCineplexHD-audio_98835_hin=98800-video=658800.m3u8
+#EXTINF:-1 tvg-id="482" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Colors%20Cineplex%20sd.jpg?raw=true" group-title="All-In-One~ENT🧩",cineplex_sd
+
+#EXTINF:-1 tvg-id="1763" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Colors%20cineplex%20Bollywood.jpg?raw=true" group-title="All-In-One~ENT🧩",cineplex_bollywood
+http://ranapk.site/new.php?id=JC_ColorsCineplexBollywood/JCHLS/JC_ColorsCineplexBollywood-audio_98835_hin=98800-video=658800.m3u8
+#EXTINF:-1 tvg-id="1450" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Colors%20cineplex%20superhit.jpg?raw=true" group-title="All-In-One~ENT🧩",cineplex_superhits
+http://ranapk.site/new.php?id=JC_ColorsCineplexSuperhit/JCHLS/JC_ColorsCineplexSuperhit-audio_98835_hin=98800-video=658800.m3u8
+#EXTINF:1 tvg-name="Shemaroo Filmy Gaane" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Semaro%20filmi%20gaana.jpg?raw=true" group-title="All-In-One~ENT🧩",Shemaroo Filmy Gaane
+
+#EXTINF:1 tvg-name="Shemaroo Bollywood" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Semaroo%20Bollywood.jpg?raw=true" group-title="All-In-One~ENT🧩",Shemaroo Bollywood
+https://amg00864-shemarooenterta-shemabollywood-ono-nlwbw.amagi.tv/playlist/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="1145" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/MTV%20HD.jpg?raw=true" group-title="All-In-One~ENT🧩",mtv_hd
+http://ranapk.site/new.php?id=JC_MTVHD/JCHLS/JC_MTVHD-audio_98835_eng=98800-video=658800.m3u8
+#EXTINF:-1 tvg-id="248" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/MTV%20sd.jpg?raw=true" group-title="All-In-One~ENT🧩",mtv_sd
+
+#EXTINF:1 tvg-name="ZEE 24 Ghonta" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Zee%2024%20ghonta.jpg?raw=true" group-title="All-In-One~ENT🧩",ZEE 24 Ghonta
+
+#EXTINF:1 tvg-name="Star Sports📴🚫" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Star%20Sports.jpg?raw=true" group-title="All-In-One~ENT🧩",Star Sports
+https://raw.githubusercontent.com/sonamul4545/Channel_logo-s/refs/heads/main/1.No.Signal.Television(144P).mp4
+#EXTINF:1 tvg-name="Star Sports 2" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Star%20Sports2.jpg?raw=true" group-title="All-In-One~ENT🧩",Star Sports 2
+
+#EXTINF:1 tvg-name="Star Sports 2" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Star%20Sports2.jpg?raw=true" group-title="All-In-One~ENT🧩",Star Sports 2
+http://ranapk.site/new.php?id=2c7182c8e6a22cfa6ebc02bbc9ed6dd0/Fallback/2c7182c8e6a22cfa6ebc02bbc9ed6dd0-audio_98838_hin=98800-video=658800.m3u8
+
+#EXTINF:1 tvg-name="Gubbare" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Gubbare.jpg?raw=true" group-title="All-In-One~ENT🧩",Gubbare
+https://epiconvh.akamaized.net/live/gubbare/master.m3u8
+#EXTINF:1 tvg-name="Animal planet Hindi" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Animal%20planet.jpg?raw=true" group-title="All-In-One~ENT🧩",Animal planet
+https://vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/CN.jpg?raw=true" group-title="All-In-One~ENT🧩",CARTOON NETWORK
+https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Jangle%20Book.jpg?raw=true" group-title="All-In-One~ENT🧩",Jungle Book
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
+#EXTINF:-1 tvg-id="101" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Rangeen%20Tv.jpg?raw=true" group-title="All-In-One~ENT🧩",Rongeen Tv
+https://cdn-4.pishow.tv/live/1029/master.m3u8
+#EXTINF:-1 tvg-id="101" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Khushboo%20Tv.jpg?raw=true" group-title="All-In-One~ENT🧩",Khushboo 
+https://cdn-4.pishow.tv/live/1473/master.m3u8
+#EXTINF:1 tvg-name="MANORANJAN PRIME" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Monoronjan%20Prime.jpg?raw=true" group-title="All-In-One~ENT🧩",Manoranjan prime
+https://cdn-4.pishow.tv/live/1474/master.m3u8
+#EXTINF:-1 tvg-id="101" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Monoronjan%20Tv
