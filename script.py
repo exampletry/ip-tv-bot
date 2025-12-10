@@ -1,47 +1,53 @@
 import os
 import time
+import math
 import requests
 import subprocess
-import sys
 
 PLAYLIST = "playlist.m3u"
-UPDATED = "updated.m3u"
-DEAD = "dead.m3u"
-
 GIT_BRANCH = "main"
 
 
-# ---------- PREMIUM UI FX -----------
-def banner():
-    os.system("clear")
-    print("\n")
-    print("🌀🔵✨ PREMIUM IPTV AUTO-UPDATER ✨🔵🌀")
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print("📡 Local Network Test + 🔄 GitHub Sync Auto System")
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
+# ------------ RAINBOW COLOR GENERATOR ----------------
+def rgb_text(text, t):
+    out = ""
+    for i, c in enumerate(text):
+        r = int((math.sin(i/2 + t) + 1) * 127)
+        g = int((math.sin(i/2 + t + 2) + 1) * 127)
+        b = int((math.sin(i/2 + t + 4) + 1) * 127)
+        out += f"\033[38;2;{r};{g};{b}m{c}"
+    return out + "\033[0m"
 
 
-def loading(text, t=0.04):
-    for c in text:
-        sys.stdout.write(c)
-        sys.stdout.flush()
-        time.sleep(t)
-    print("")
+# ------------ ROBOTIC HEADER ----------------
+def header(t):
+    text = r"""
+ ██████╗  ██╗ ██████╗     ████████╗██╗   ██╗
+ ██╔══██╗███║██╔════╝     ╚══██╔══╝██║   ██║
+ ██████╔╝╚██║███████╗        ██║   ██║   ██║
+ ██╔══██╗ ██║██╔═══██╗       ██║   ██║   ██║
+ ██║  ██║ ██║╚██████╔╝       ██║   ╚██████╔╝
+ ╚═╝  ╚═╝ ╚═╝ ╚═════╝        ╚═╝    ╚═════╝
+         PREMIUM IPTV AUTO UPDATER
+    """
+    return rgb_text(text, t)
 
 
-def bar(percent):
-    total = 25
-    filled = int(total * percent)
-    empty = total - filled
-    print(f"🎚️ |{'█' * filled}{'░' * empty}| {int(percent * 100)}%")
+# ------------ RAINBOW MOTION BG ----------------
+def rainbow_motion():
+    for t in range(20):
+        os.system("clear")
+        print(header(t/2))
+
+        bar = rgb_text("█" * 40, t)  
+        print("\n" * 2)
+        print(bar)
+        print("\n" * 1)
+        print(rgb_text("Initializing Robotic Engine...", t))
+        time.sleep(0.07)
 
 
-def premium_section(title):
-    print("\n⭐ " + title)
-    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-
-
-# ---------- STREAM CHECK ----------
+# ------------ STREAM TEST ----------------
 def check_stream(url):
     try:
         r = requests.get(url, timeout=2, stream=True)
@@ -50,94 +56,75 @@ def check_stream(url):
         return False
 
 
-# ---------- AUTO UPDATE ----------
 def update_playlist():
-
-    banner()
-    loading("🚀 Checking Playlist… initializing UI…")
+    os.system("clear")
+    print(header(1))
+    print("\n🚀 Checking playlist...\n")
 
     if not os.path.exists(PLAYLIST):
-        print("❌ playlist.m3u not found!")
+        print("❌ playlist.m3u missing!")
         return
 
-    online_list = []
-    dead_list = []
-    final_lines = []
-
     lines = open(PLAYLIST).read().splitlines()
-    last_meta = ""
+    updated = []
+    last = ""
 
-    count = sum(1 for l in lines if l.startswith("http"))
-    current = 0
-
-    premium_section("🔍 STREAM TESTING STARTED")
+    http_count = sum(1 for l in lines if l.startswith("http"))
+    done = 0
 
     for line in lines:
 
         if line.startswith("#EXTINF"):
-            last_meta = line
+            last = line
 
         elif line.startswith("http"):
             url = line.strip()
-            current += 1
+            done += 1
 
-            percent = current / count
-            bar(percent)
-            print(f"🔗 {url}")
+            percent = int((done / http_count) * 100)
+            progress = rgb_text("█" * int(percent/5), time.time())
+            print(f"{progress} {percent}% → {url}")
 
             if check_stream(url):
-                print("   ✅ ONLINE")
-                final_lines.append(last_meta)
-                final_lines.append(url)
-                online_list.append(url)
+                print("   ✔ ONLINE\n")
+                updated.append(last)
+                updated.append(url)
             else:
-                print("   ❌ OFFLINE")
-                dead_list.append(url)
+                print("   ✘ OFFLINE\n")
 
         else:
-            final_lines.append(line)
+            updated.append(line)
 
-        print("")
+    # Write final result
+    with open(PLAYLIST, "w") as f:
+        f.write("\n".join(updated))
 
-    # Write updated playlist
-    with open(UPDATED, "w") as f:
-        f.write("\n".join(final_lines))
-
-    # Write dead playlist
-    with open(DEAD, "w") as f:
-        f.write("\n".join(dead_list))
-
-    premium_section("📊 SUMMARY")
-
-    print(f"🟢 ONLINE CHANNELS : {len(online_list)}")
-    print(f"🔴 OFFLINE CHANNELS: {len(dead_list)}")
-    print(f"📁 updated.m3u saved")
-    print(f"📁 dead.m3u saved")
-
+    print("\n✔ playlist.m3u updated.")
     git_sync()
 
 
-# ---------- GITHUB SYNC ----------
+# ------------ GITHUB SYNC ----------------
 def git_sync():
-
-    premium_section("📡 SYNCING WITH GITHUB…")
+    print("\n📡 Syncing GitHub...\n")
 
     subprocess.run(["git", "add", "."], check=False)
-    subprocess.run(["git", "commit", "-m", "Auto Updated Playlist"], check=False)
+    subprocess.run(["git", "commit", "-m", "Auto Update"], check=False)
     subprocess.run(["git", "push", "origin", GIT_BRANCH], check=False)
 
-    loading("✔ GitHub Sync Complete!\n", 0.02)
+    print("✔ GitHub Sync Done\n")
 
 
-# ---------- MAIN CONTROL ----------
-if __name__ == "__main__":
-    
-    banner()
-    loading("🔧 Starting IPTV Auto System...", 0.03)
-
+# ------------ MAIN ----------------
+def start():
+    rainbow_motion()      # 🔥 safe animation
     update_playlist()
 
     while True:
-        loading("\n⏳ Waiting 30 minutes for next auto update…", 0.02)
+        print("\n⏳ 30 minutes waiting...\n")
         time.sleep(1800)
         update_playlist()
+
+
+if __name__ == "__main__":
+    start()	
+
