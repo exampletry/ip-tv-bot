@@ -1,53 +1,76 @@
 import os
 import time
-import math
 import requests
 import subprocess
+import sys
+import random
 
 PLAYLIST = "playlist.m3u"
+UPDATED = "updated.m3u"
+DEAD = "dead.m3u"
 GIT_BRANCH = "main"
 
 
-# ------------ RAINBOW COLOR GENERATOR ----------------
-def rgb_text(text, t):
-    out = ""
-    for i, c in enumerate(text):
-        r = int((math.sin(i/2 + t) + 1) * 127)
-        g = int((math.sin(i/2 + t + 2) + 1) * 127)
-        b = int((math.sin(i/2 + t + 4) + 1) * 127)
-        out += f"\033[38;2;{r};{g};{b}m{c}"
-    return out + "\033[0m"
+# ------------------------------------------------------
+#            GLASS UI PREMIUM EFFECT FUNCTIONS
+# ------------------------------------------------------
+
+def clear():
+    os.system("clear")
 
 
-# ------------ ROBOTIC HEADER ----------------
-def header(t):
-    text = r"""
- ██████╗  ██╗ ██████╗     ████████╗██╗   ██╗
- ██╔══██╗███║██╔════╝     ╚══██╔══╝██║   ██║
- ██████╔╝╚██║███████╗        ██║   ██║   ██║
- ██╔══██╗ ██║██╔═══██╗       ██║   ██║   ██║
- ██║  ██║ ██║╚██████╔╝       ██║   ╚██████╔╝
- ╚═╝  ╚═╝ ╚═╝ ╚═════╝        ╚═╝    ╚═════╝
-         PREMIUM IPTV AUTO UPDATER
-    """
-    return rgb_text(text, t)
+def glass_line(text="", width=60):
+    space = width - len(text)
+    return f"│  {text}{' ' * space}│"
 
 
-# ------------ RAINBOW MOTION BG ----------------
-def rainbow_motion():
-    for t in range(20):
-        os.system("clear")
-        print(header(t/2))
+def glass_box(title, width=60):
+    clear()
+    border = "┌" + "─" * (width + 2) + "┐"
+    end =    "└" + "─" * (width + 2) + "┘"
+    
+    print("\033[97m")   # white glow foreground
+    print(border)
+    print(glass_line(" "))
+    print(glass_line(f"✨ {title}"))
+    print(glass_line(" "))
+    print(end)
+    print("\033[0m")
 
-        bar = rgb_text("█" * 40, t)  
-        print("\n" * 2)
-        print(bar)
-        print("\n" * 1)
-        print(rgb_text("Initializing Robotic Engine...", t))
-        time.sleep(0.07)
+
+def frosted_glass_panel(lines: list, width=60):
+    border = "╭" + "─" * (width + 2) + "╮"
+    end =    "╰" + "─" * (width + 2) + "╯"
+    print("\033[97m")
+    print(border)
+    for ln in lines:
+        space = width - len(ln)
+        print(f"│ {ln}{' ' * space} │")
+    print(end)
+    print("\033[0m")
 
 
-# ------------ STREAM TEST ----------------
+def typing_glass(text, speed=0.02):
+    print("\033[97m│ ", end="")
+    for c in text:
+        print(c, end="", flush=True)
+        time.sleep(speed)
+    print("\033[0m")
+
+
+def glass_progress(percent):
+    bar_len = 40
+    filled = int(bar_len * percent)
+    empty = bar_len - filled
+    print(
+        f"\033[97m│ ░{'█' * filled}{' ' * empty}░ {int(percent * 100)}% │\033[0m"
+    )
+
+
+# ------------------------------------------------------
+#                    STREAM CHECK
+# ------------------------------------------------------
+
 def check_stream(url):
     try:
         r = requests.get(url, timeout=2, stream=True)
@@ -56,75 +79,95 @@ def check_stream(url):
         return False
 
 
+# ------------------------------------------------------
+#                   MAIN UPDATE FUNCTION
+# ------------------------------------------------------
+
 def update_playlist():
-    os.system("clear")
-    print(header(1))
-    print("\n🚀 Checking playlist...\n")
+
+    glass_box("IPTV Auto Updater - Glass Edition ✨")
+    time.sleep(0.3)
 
     if not os.path.exists(PLAYLIST):
-        print("❌ playlist.m3u missing!")
+        frosted_glass_panel(["❌ playlist.m3u not found!"])
         return
 
     lines = open(PLAYLIST).read().splitlines()
-    updated = []
-    last = ""
+    last_meta = ""
 
-    http_count = sum(1 for l in lines if l.startswith("http"))
+    online_list = []
+    dead_list = []
+    final = []
+
+    total = sum(1 for l in lines if l.startswith("http"))
     done = 0
 
+    frosted_glass_panel(["🔍 STREAM TESTING STARTED", " "])
+
     for line in lines:
-
         if line.startswith("#EXTINF"):
-            last = line
-
+            last_meta = line
         elif line.startswith("http"):
             url = line.strip()
             done += 1
 
-            percent = int((done / http_count) * 100)
-            progress = rgb_text("█" * int(percent/5), time.time())
-            print(f"{progress} {percent}% → {url}")
+            glass_progress(done / total)
+            typing_glass(f"Checking: {url}", 0.004)
 
             if check_stream(url):
-                print("   ✔ ONLINE\n")
-                updated.append(last)
-                updated.append(url)
+                typing_glass("✔ ONLINE")
+                final.append(last_meta)
+                final.append(url)
+                online_list.append(url)
             else:
-                print("   ✘ OFFLINE\n")
+                typing_glass("✖ OFFLINE")
+                dead_list.append(url)
 
+            print("")
         else:
-            updated.append(line)
+            final.append(line)
 
-    # Write final result
-    with open(PLAYLIST, "w") as f:
-        f.write("\n".join(updated))
+    open(UPDATED, "w").write("\n".join(final))
+    open(DEAD, "w").write("\n".join(dead_list))
 
-    print("\n✔ playlist.m3u updated.")
+    frosted_glass_panel([
+        "📊 SUMMARY",
+        f"🟢 ONLINE  : {len(online_list)}",
+        f"🔴 OFFLINE : {len(dead_list)}",
+        "📁 updated.m3u saved",
+        "📁 dead.m3u saved"
+    ])
+
     git_sync()
 
 
-# ------------ GITHUB SYNC ----------------
+# ------------------------------------------------------
+#                     GIT HUB SYNC
+# ------------------------------------------------------
+
 def git_sync():
-    print("\n📡 Syncing GitHub...\n")
+
+    frosted_glass_panel(["📡 Syncing With GitHub…"])
 
     subprocess.run(["git", "add", "."], check=False)
-    subprocess.run(["git", "commit", "-m", "Auto Update"], check=False)
+    subprocess.run(["git", "commit", "-m", "Glass Update"], check=False)
     subprocess.run(["git", "push", "origin", GIT_BRANCH], check=False)
 
-    print("✔ GitHub Sync Done\n")
+    frosted_glass_panel(["✔ GitHub Sync Complete!"])
 
 
-# ------------ MAIN ----------------
-def start():
-    rainbow_motion()      # 🔥 safe animation
+# ------------------------------------------------------
+#                     AUTO LOOP
+# ------------------------------------------------------
+
+if __name__ == "__main__":
+    glass_box("Starting Glass UI System…")
+    time.sleep(0.5)
+
     update_playlist()
 
     while True:
-        print("\n⏳ 30 minutes waiting...\n")
+        frosted_glass_panel(["⏳ Waiting 30 minutes…"])
         time.sleep(1800)
-        update_playlist()
-
-
-if __name__ == "__main__":
-    start()	
+        update_playlist()	
 
