@@ -9,8 +9,6 @@ http://172.16.29.2:8090/hls/gazitvhd.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0QqLq86p/1674014573-65966686.jpg", Channel i HD
 http://172.16.29.2:8090/hls/channelihd.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/PqbSY1x1/1675573934-89430978.jpg", ATN News
-http://172.16.29.2:8090/hls/AtnNews.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/KvZxM581/jamunatv.png", Jamuna TV
 http://172.16.29.2:8090/hls/JamunaTV.m3u8
@@ -264,18 +262,28 @@ https://cdn-4.pishow.tv/live/1029/master.m3u8
 https://cdn-4.pishow.tv/live/1473/master.m3u8
 #EXTINF:1 tvg-name="MANORANJAN PRIME" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Monoronjan%20Prime.jpg?raw=true" group-title="All-In-One~ENT🧩",Manoranjan prime
 https://cdn-4.pishow.tv/live/1474/master.m3u8
+#EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/RR0Iv6V.png",BTV World
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/btvbd-office-sg.stream/playlist.m3u8
+#EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/sTZelfs.png",BTV CTG
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/btvnational-ctg.stream/playlist.m3u8
+#EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/sTZelfs.png",SANGSAD TV
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/songsodtv-world.stream/playlist.m3u8
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/h5FhOWT.png",ANANDO TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/playlist.m3u8
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/5PsRkPd.png",ATN BANGLA
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/HX8SSDA.png",BANGLAVISION
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/banglav000.stream/playlist.m3u8
+#EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/kDmkexe.png",BIJOY TV
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/bijoy00.stream/playlist.m3u8
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/pTJSGtj.png",BOISHAKHI TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/boishakhitv-org.stream/playlist.m3u8
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/yi5p51T.png",RTV HD
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/TWuzjbg.png",MY TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/playlist.m3u8
+#EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/l76jXPz.png",NEXUS TV
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/nexustv.stream/playlist.m3u8
 #EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://i.ibb.co/yq00Lvb/GTVBangladesh-Logo.png",GAZI TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8
 #EXTINF:-1 group-title="BANGLA" tvg-logo="https://i.imgur.com/d1zRBNr.png",Channel 9
@@ -290,6 +298,8 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/satvoff5666.stream/playlist.m3u8
 #EXTINF:-1 group-title="BANGLA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Ekushey_Television_Logo.svg/300px-Ekushey_Television_Logo.svg.png",Ekushay TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ekusheytv-8-org.stream/playlist.m3u8
+#EXTINF:-1 group-title="BANGLA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e0/Global_Television_Bangladesh_Logo_2.png",GLOBAL TV HD
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8
 
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://imgpile.com/images/58JICx.jpg",THE CHANNEL TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/thechanneltv.stream/playlist.m3u8
@@ -297,6 +307,8 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/globaltv.stream/playlist.m3u8
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://imgpile.com/images/58MA3k.png",CHANNEL S HD
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8
+#EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.imgur.com/fxq0pV2.png",ASIAN TV [BD]
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/playlist.m3u8
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://imgpile.com/images/58JKfM.jpg",DESHI BiDESHI [BD]
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/deshebideshe.stream/playlist.m3u8
 #EXTINF:-1 group-title="BD BANGLA" tvg-logo="https://i.ibb.co/0rPdpW9/MB-TV.jpg",MOVIE BANGLA [BD]
@@ -315,8 +327,6 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 
 #EXTINF:-1 group-title="BANGLA" tvg-logo="https://image.ghuddi.tv/uploads/images/2023/12/21/tv_covers_4062f694e7d8174bf13464efbc16f135_goplay_atn_news_1920_x_1080.png",ATN NEWS HD
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8
-#EXTINF:-1 group-title="BANGLA" tvg-logo="https://cdn.jagonews24.com/media/imgAllNew/BG/2019October/jagonews24-md-20191101153408.jpg",JagoNews24 TV
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/jagonews24.stream/playlist.m3u8
 #EXTINF:-1 group-title="BANGLA" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Ekattor_TV_logo.svg/285px-Ekattor_TV_logo.svg.png",Ekattor TV HD
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/ekattor.stream/playlist.m3u8
 
@@ -387,3 +397,123 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF9
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/channel25usa.stream/playlist.m3u8
 #EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://www.jagobd.com/wp-content/uploads/2024/12/mb-768x768.jpg",Music Bangla tv
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/musicbangla2025.stream/playlist.m3u8
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://www.jagobd.com/wp-content/uploads/2025/05/max-bangla--768x576.png",Max Bangla tv
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/maxbangla.stream/playlist.m3u8
+
+
+#EXTINF:-1 group-title="-",&Prive HD - Rs 3.00
+http://103.253.18.58:8000/play/a01q
+#EXTINF:-1 group-title="-",&flix HD - Rs 10.00
+http://103.253.18.58:8000/play/a01y
+#EXTINF:-1 group-title="-",&flix HD - Rs 19.00
+http://103.253.18.58:8000/play/a03j
+#EXTINF:-1 group-title="-",&pictures HD - Rs 19.00
+http://103.253.18.58:8000/play/a01i
+#EXTINF:-1 group-title="-",&tv HD - Rs 19.00
+http://103.253.18.58:8000/play/a01j
+#EXTINF:-1 group-title="-",Animal Planet HD  - Rs 3.00
+http://103.253.18.58:8000/play/a03s
+#EXTINF:-1 group-title="-",Cartoon Network HD+ - Rs 5.00
+http://103.253.18.58:8000/play/a03i
+#EXTINF:-1 group-title="-",Colors HD - Rs 19.00
+http://103.253.18.58:8000/play/a00n
+#EXTINF:-1 group-title="-",Discovery HD - Rs 10.00
+http://103.253.18.58:8000/play/a01r
+#EXTINF:-1 group-title="-",Discovery Kids - Rs 4.00
+http://103.253.18.58:8000/play/a00w
+#EXTINF:-1 group-title="-",Discovery Turbo - Rs 1.00
+http://103.253.18.58:8000/play/a03m
+#EXTINF:-1 group-title="-",Disney Junior 
+http://103.253.18.58:8000/play/a00c
+#EXTINF:-1 group-title="-",ENCODER 2
+http://103.253.18.58:8000/play/a04i
+#EXTINF:-1 group-title="-",ENCODER-4
+http://103.253.18.58:8000/play/a04k
+#EXTINF:-1 group-title="-",ENCODER-5
+http://103.253.18.58:8000/play/a04l
+#EXTINF:-1 group-title="-",ENCODER-6
+http://103.253.18.58:8000/play/a04m
+#EXTINF:-1 group-title="-",ENCODER-7
+http://103.253.18.58:8000/play/a04n
+#EXTINF:-1 group-title="-",ENCODER-8
+http://103.253.18.58:8000/play/a04o
+#EXTINF:-1 group-title="-",History TV18 HD - Rs 7.00 
+http://103.253.18.58:8000/play/a01f
+#EXTINF:-1 group-title="-",Investigation Discovery - Rs 1.00
+http://103.253.18.58:8000/play/a01n
+#EXTINF:-1 group-title="-",MTV HD - Rs 8.00
+http://103.253.18.58:8000/play/a01t
+#EXTINF:-1 group-title="-",Movies Now HD - Rs 16.00
+http://103.253.18.58:8000/play/a03n
+#EXTINF:-1 group-title="-",NATIONAL GEOGRAPHIC HD - Rs 14.00
+http://103.253.18.58:8000/play/a01l
+#EXTINF:-1 group-title="-",NEW- EXP ENTERTAINMENT
+http://103.253.18.58:8000/play/a038
+#EXTINF:-1 group-title="-",NEW- EXP NEWS
+http://103.253.18.58:8000/play/a039
+#EXTINF:-1 group-title="-",Nat Geo Wild HD - Rs 5.00
+http://103.253.18.58:8000/play/a03t
+#EXTINF:-1 group-title="-",Nick  - Rs 7.00
+http://103.253.18.58:8000/play/a01c
+#EXTINF:-1 group-title="-",Nick Jr. - Rs 1.00
+http://103.253.18.58:8000/play/a00y
+#EXTINF:-1 group-title="-",PK:GEO SUPER
+http://103.253.18.58:8000/play/a04j
+#EXTINF:-1 group-title="-",PK:TEN SPORT
+http://103.253.18.58:8000/play/a04h
+#EXTINF:-1 group-title="-",Pogo - Rs 5.00
+http://103.253.18.58:8000/play/a00x
+#EXTINF:-1 group-title="-",Romedy Now - Rs 5.00
+http://103.253.18.58:8000/play/a01p
+#EXTINF:-1 group-title="-",SET HD - Rs 25.00
+http://103.253.18.58:8000/play/a00f
+#EXTINF:-1 group-title="-",SONY BBC EARTH HD - Rs 19.00
+http://103.253.18.58:8000/play/a01g
+#EXTINF:-1 group-title="-",SONY MAX - Rs 19.00
+http://103.253.18.58:8000/play/a01a
+#EXTINF:-1 group-title="-",SONY MAX 2 - Rs 2.00
+http://103.253.18.58:8000/play/a00s
+#EXTINF:-1 group-title="-",SONY PIX HD - Rs 19.00
+http://103.253.18.58:8000/play/a01v
+#EXTINF:-1 group-title="-",SONY SPORTS TEN 2 HD - Rs 25.00
+http://103.253.18.58:8000/play/a01u
+#EXTINF:-1 group-title="-",SONY YAY! - Rs 4.00
+http://103.253.18.58:8000/play/a018
+#EXTINF:-1 group-title="-",STAR GOLD HD - Rs 19.00
+http://103.253.18.58:8000/play/a00q
+#EXTINF:-1 group-title="-",STAR Movies HD - Rs 19.00
+http://103.253.18.58:8000/play/a01x
+#EXTINF:-1 group-title="-",STAR Plus HD - Rs 25.00
+http://103.253.18.58:8000/play/a00l
+#EXTINF:-1 group-title="-",Sonic - Rs 2.00
+http://103.253.18.58:8000/play/a011
+#EXTINF:-1 group-title="-",Star Bharat - Rs 15.00
+http://103.253.18.58:8000/play/a00u
+#EXTINF:-1 group-title="-",Star Gold 2 - Rs 5.00
+http://103.253.18.58:8000/play/a00r
+#EXTINF:-1 group-title="-",Star Gold Romance - Rs 3.00
+http://103.253.18.58:8000/play/a017
+#EXTINF:-1 group-title="-",Star Gold Select HD - Rs 8.00
+http://103.253.18.58:8000/play/a02u
+#EXTINF:-1 group-title="-",Star Gold Thrills - Rs 2.00
+http://103.253.18.58:8000/play/a00o
+#EXTINF:-1 group-title="-",Star Sports 1 HD - Rs 19.00
+http://103.253.18.58:8000/play/a00m
+#EXTINF:-1 group-title="-",Star Sports 1 Hindi - Rs 19.00
+http://103.253.18.58:8000/play/a03o
+#EXTINF:-1 group-title="-",Star Sports 1 Hindi - Rs 19.00
+http://103.253.18.58:8000/play/a00t
+#EXTINF:-1 group-title="-",Star Sports 2 HD - Rs 19.00 old
+http://103.253.18.58:8000/play/a03h
+#EXTINF:-1 group-title="-",TLC HD - Rs 3.00
+http://103.253.18.58:8000/play/a022
+#EXTINF:-1 group-title="-",Zee Bollywood - Rs 3.00
+http://103.253.18.58:8000/play/a010
+#EXTINF:-1 group-title="-",Zee Cinema HD +1_O
+http://103.253.18.58:8000/play/a03g
+#EXTINF:-1 group-title="-",Zee Classic - Rs 0.10
+http://103.253.18.58:8000/play/a03l
+#EXTINF:-1 group-title="-",Zee TV HD - Rs 19.00
+http://103.253.18.58:8000/play/a01e
+#EXTINF:-1 group-title="-",urdu 1
+http://103.253.18.58:8000/play/a04g
